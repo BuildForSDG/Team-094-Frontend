@@ -1,0 +1,87 @@
+.home-container {
+  margin: 0;
+  padding: 0;
+  .header-section {
+    background: url(../../images/accident.jpg) no-repeat 78% 71% #1b2019;
+    height: 100vh;
+    color: $cident-white;
+    font-family: $Roboto-font;
+    letter-spacing: 0.06em;
+    .caption {
+      margin: 0;
+      padding: 6em 2.5em;
+      padding-bottom: 0;
+      font-size: 28px;
+      text-transform: uppercase;
+      font-weight: bold;
+      .title {
+        line-height: 1.5em;
+        font-size: 4em;
+      }
+      .functions {
+        font-size: 1.5em;
+      }
+    }
+    .registration-button {
+      padding: 2em 4.5em;
+      button {
+        padding: 20px 40px;
+        text-transform: uppercase;
+        font-size: 0.9em;
+        border: 0;
+      }
+      .login {
+        background-color: $cident-white;
+        color: $cident-dark;
+      }
+      .login:hover {
+        background-color: $cident-dark;
+        color: $cident-white;
+      }
+      .signup {
+        background-color: $cident-dark;
+        color: $cident-white;
+      }
+      .signup:hover {
+        background-color: $cident-white;
+        color: $cident-dark;
+      }
+    }
+  }
+  .divisions {
+    background-color: $cident-dark;
+    color: $cident-white;
+    padding: 0 20px;
+    .row {
+      display: flex;
+      padding: 80px 60px;
+      .mid-grid {
+        width: 33.33%;
+        text-align: center;
+        h3 {
+          font-size: 3em;
+          margin: 20px;
+        }
+        h4 {
+          font-size: 1.5em;
+          color: $cident-yellow2;
+          margin: 15px;
+        }
+        p {
+          color: $cident-ash;
+        }
+        a {
+          color: #fff;
+          font-size: 1.2em;
+          font-family: "Open Sans", sans-serif;
+          text-transform: uppercase;
+          padding: 0.5em 0px 0px 0px;
+          text-decoration: none;
+        }
+        a:hover {
+          color: #f5c34c;
+        }
+      }
+    }
+  }
+}

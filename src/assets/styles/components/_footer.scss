@@ -1,0 +1,51 @@
+.footer-container {
+  margin: 0;
+  padding: 3.5em 0 4em 0;
+  background-color: #f5c34c;
+  text-transform: uppercase;
+  color: $cident-white;
+  text-align: center;
+  .row {
+    .social-links {
+      ul {
+        display: flex;
+        justify-content: center;
+        li {
+          display: flex;
+          text-decoration: none;
+          a {
+            text-decoration: none;
+            color: $cident-white;
+            margin: 0 10px;
+            font-size: 1.1em;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    .mobile-no {
+      font-size: 6em;
+      font-weight: bold;
+    }
+    .footer-logo {
+      font-size: 4em;
+      a {
+        text-decoration: none;
+        color: $cident-white;
+        span {
+          color: $cident-dark;
+        }
+      }
+    }
+    .copy-right {
+      font-size: 1em;
+      a {
+        text-decoration: none;
+        color: $cident-dark;
+      }
+      a:hover {
+        color: $cident-white;
+      }
+    }
+  }
+}

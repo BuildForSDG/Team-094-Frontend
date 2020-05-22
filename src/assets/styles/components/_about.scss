@@ -1,0 +1,18 @@
+.about-container {
+  margin: 0;
+  padding: 0;
+  .header {
+    background: url(../../images/accident.jpg) no-repeat 78% 71% #1b2019;
+    height: 55vh;
+    h2 {
+      text-align: center;
+      padding: 130px;
+      font-size: 50px;
+      font-weight: bold;
+      color: $cident-white;
+      font-family: $Roboto-font;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+  }
+}

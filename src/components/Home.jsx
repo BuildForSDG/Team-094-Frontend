@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Paramedis from "../assets/images/paramedics11.png";
 import fireTruck1 from "../assets/images/fire-truck1.png";
 import repair from "../assets/images/repair.png";
+// "@fortawesome/react-fontawesome": "fortawesome/react-fontawesome",
 
 const Home = () => {
   return (
@@ -49,7 +50,7 @@ const Home = () => {
               <img src={fireTruck1} alt="sales" title="Fire Truck" />
             </Link>
 
-            <h4>Emergency Responds Unit etc</h4>
+            <h4>Emergency Responds Unit</h4>
             <p>
               Have they been a fire outbreak? contact the required agency
               through this channel
